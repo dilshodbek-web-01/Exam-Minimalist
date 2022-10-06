@@ -1,0 +1,161 @@
+.nav {
+  @include costum-menu(flex, center, space-between, 100%, 110px, white);
+
+  &__lists {
+    @include costum-menu(flex, center, space-between, 35%, auto, white);
+
+    &--item {
+      list-style-type: none;
+
+      &-link {
+        @extend %list-nav;
+        @extend %list-link;
+
+        &:hover {
+            color: $color-green;
+        }
+      }
+    }
+  }
+
+  &__menu {
+    display: none;
+  }
+}
+
+@media #{$media-lg-tablet} {
+  .nav {
+    @include costum-menu(flex, center, space-between, 100%, 110px, white);
+  
+    &__lists {
+      @include costum-menu(flex, center, space-between, 45%, auto, white);
+  
+      &--item {
+        list-style-type: none;
+  
+        &-link {
+          @extend %list-nav;
+          @extend %list-link;
+  
+          &:hover {
+              color: $color-green;
+          }
+        }
+      }
+    }
+
+    &__menu {
+      display: none;
+    }
+  }
+  
+}
+
+@media #{$media-tablet} {
+  .nav {
+    @include costum-menu(flex, center, space-between, 100%, 110px, white);
+  
+    &__lists {
+      @include costum-menu(flex, center, space-between, 50%, auto, white);
+  
+      &--item {
+        list-style-type: none;
+  
+        &-link {
+          @extend %list-nav;
+          @extend %list-link;
+  
+          &:hover {
+              color: $color-green;
+          }
+        }
+      }
+    }
+
+    &__menu {
+      display: none;
+    }
+  }
+  
+}
+
+@media #{$media-mobile} {
+  .nav {
+    @include costum-menu(flex, center, space-between, 100%, 110px, white);
+  
+    &__lists {
+      @include costum-menu(none, center, space-between, 35%, auto, white);
+  
+      &--item {
+        list-style-type: none;
+  
+        &-link {
+          @extend %list-nav;
+          @extend %list-link;
+  
+          &:hover {
+              color: $color-green;
+          }
+        }
+      }
+    }
+  
+    &__menu {
+      display: block;
+    }
+  }
+}
+
+@media #{$media-mobile-sm} {
+  .nav {
+    @include costum-menu(flex, center, space-between, 100%, 110px, white);
+  
+    &__lists {
+      @include costum-menu(none, center, space-between, 35%, auto, white);
+  
+      &--item {
+        list-style-type: none;
+  
+        &-link {
+          @extend %list-nav;
+          @extend %list-link;
+  
+          &:hover {
+              color: $color-green;
+          }
+        }
+      }
+    }
+  
+    &__menu {
+      display: block;
+    }
+  }
+}
+
+@media #{$media-mobile-xs} {
+  .nav {
+    @include costum-menu(flex, center, space-between, 100%, 110px, white);
+  
+    &__lists {
+      @include costum-menu(none, center, space-between, 35%, auto, white);
+  
+      &--item {
+        list-style-type: none;
+  
+        &-link {
+          @extend %list-nav;
+          @extend %list-link;
+  
+          &:hover {
+              color: $color-green;
+          }
+        }
+      }
+    }
+  
+    &__menu {
+      display: block;
+    }
+  }
+}

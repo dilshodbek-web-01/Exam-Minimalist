@@ -1,0 +1,282 @@
+.hero {
+    width: 100%;
+
+    &__wrapper {
+
+        .card {
+            display: flex;
+            list-style-type: none;
+            margin-bottom: 73px;
+
+            &__picture {
+                position: relative;
+                right: 40px;
+
+                .porto {
+                    background-color:#FFEFEC;
+                }
+            }
+
+            &__content {
+                margin-left: 85px;
+
+                &-text {
+                    width: 350px;
+                    margin-bottom: 24px;
+                }
+
+                &-link {
+                    @extend %list-link;
+                    border: 1px solid $color-dark;
+                    padding: 17px 36px 17px 32px;
+
+                    &:hover {
+                        @extend %link-hover;
+                      }
+              
+                      &:active {
+                        @extend %link-active;
+                      }
+                }
+
+
+            }
+
+            &__content-tall {
+                width: 350px;
+                height: 1px;
+                color: $color-dark;
+                opacity: 0.15;
+                margin-bottom: 103px;
+            }
+
+            .tall2 {
+                position: relative;
+                top: 102px;
+            }
+        }
+
+        .card:nth-child(2) {
+              
+            .card__picture {
+                width: 540px;
+                height: 500px;
+                background-color: #4F63D8;
+                position: relative;
+                left: 528px;
+                top: 7px;
+
+                .porto {
+                    background-color: #4F63D8;
+                    position: relative;
+                    top: 50px;
+                    left: 54px;
+                }
+            }
+
+            .card__content {
+                position: relative;
+                right: 555px;
+            }
+            
+        }
+
+        .card:nth-child(3) {
+              
+            .card__picture {
+                width: 540px;
+                height: 500px;
+                background: #9A99AB;
+
+                .porto {
+                    background-color: #4F63D8;
+                    position: relative;
+                    top: 50px;
+                    left: 54px;
+                }
+            }
+
+            .card__content {
+                position: relative;
+                right: 17px;
+            }
+            
+        }
+
+        .card:nth-child(4) {
+            
+            .card__picture {
+                width: 540px;
+                height: 500px;
+                background-color: #41B4D3;
+                position: relative;
+                left: 528px;
+                top: 7px;
+
+                .porto {
+                    background-color: #41B4D3;
+                    position: relative;
+                    top: 50px;
+                    left: 54px;
+                }
+            }
+
+            .card__content {
+                position: relative;
+                right: 555px;
+            }
+            
+        }
+
+    }
+}
+
+@media #{$media-lg-tablet} {
+    
+}
+
+@media #{$media-tablet} {
+    .hero {
+        width: 100%;
+    
+        &__wrapper {
+    
+            .card {
+                display: flex;
+                list-style-type: none;
+                margin-bottom: 73px;
+    
+                &__picture {
+                    position: relative;
+                    right: 40px;
+                    margin-bottom: 100px;
+                    position: relative;
+                    top: 200px;
+    
+                    .porto {
+                        background-color:#FFEFEC;
+                        width: 339px;
+                        height: 314px;
+                    }
+                }
+    
+                &__content {
+                    margin-left: 85px;
+    
+                    &-text {
+                        width: 350px;
+                        margin-bottom: 24px;
+                    }
+    
+                    &-link {
+                        @extend %list-link;
+                        border: 1px solid $color-dark;
+                        padding: 17px 36px 17px 32px;
+    
+                        &:hover {
+                            @extend %link-hover;
+                          }
+                  
+                          &:active {
+                            @extend %link-active;
+                          }
+                    }
+    
+    
+                }
+    
+                &__content-tall {
+                    width: 350px;
+                    height: 1px;
+                    color: $color-dark;
+                    opacity: 0.15;
+                    margin-bottom: 103px;
+                }
+    
+                .tall2 {
+                    position: relative;
+                    top: 102px;
+                }
+            }
+    
+            .card:nth-child(2) {
+                  
+                .card__picture {
+                    width: 540px;
+                    height: 500px;
+                    background-color: #4F63D8;
+                    position: relative;
+                    left: 528px;
+                    top: 7px;
+    
+                    .porto {
+                        background-color: #4F63D8;
+                        position: relative;
+                        top: 50px;
+                        left: 54px;
+                    }
+                }
+    
+                .card__content {
+                    position: relative;
+                    right: 555px;
+                }
+                
+            }
+    
+            .card:nth-child(3) {
+                  
+                .card__picture {
+                    width: 540px;
+                    height: 500px;
+                    background: #9A99AB;
+    
+                    .porto {
+                        background-color: #4F63D8;
+                        position: relative;
+                        top: 50px;
+                        left: 54px;
+                    }
+                }
+    
+                .card__content {
+                    position: relative;
+                    right: 17px;
+                }
+                
+            }
+    
+            .card:nth-child(4) {
+                
+                .card__picture {
+                    width: 540px;
+                    height: 500px;
+                    background-color: #41B4D3;
+                    position: relative;
+                    left: 528px;
+                    top: 7px;
+    
+                    .porto {
+                        background-color: #41B4D3;
+                        position: relative;
+                        top: 50px;
+                        left: 54px;
+                    }
+                }
+    
+                .card__content {
+                    position: relative;
+                    right: 555px;
+                }
+                
+            }
+    
+        }
+    }
+}
+
+@media #{$media-mobile} {}
+
+@media #{$media-mobile-sm} {}
+
+@media #{$media-mobile-xs} {}

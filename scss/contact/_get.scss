@@ -1,0 +1,51 @@
+.get {
+    width: 100%;
+    
+
+    &__wrapper {
+        margin-bottom: 50px;
+        &-hr {
+            color: $color-dark;
+            opacity: 0.15;
+        }
+
+        .in__touch {
+            @include costum-menu(flex, start, space-between, 100%, auto, white);
+        }
+
+        
+
+        .icon-content {
+
+
+            &-title {
+                width: 635px;
+            }
+            
+            .icons {
+                @include costum-menu(flex, center, space-between, 17%, auto, white);
+
+                .github {
+                    &:hover {
+                        fill: $color-green;
+                    }
+                }
+        
+                .twitter {
+                    &:hover {
+                        fill: $color-green;
+                    }
+                }
+        
+                .in {
+                    &:hover {
+                        fill: $color-green;
+                    }
+                }
+
+            }
+        }
+
+        
+    }
+}

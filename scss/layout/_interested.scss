@@ -1,0 +1,33 @@
+.interested {
+  width: 100%;
+  margin-bottom: 150px;
+
+  &__wrapper {
+    @include costum-menu(flex, center, space-between, 100%, auto, white);
+
+    &-title {
+      width: 350px;
+    }
+
+    &-line {
+      width: 534px;
+      height: 1px;
+      background-color: $color-dark;
+      opacity: 0.15;
+    }
+
+    &-link {
+      @extend %list-link;
+      border: 1px solid $color-dark;
+      padding: 17px 35px 17px 32px;
+
+      &:hover {
+        @extend %link-hover;
+      }
+
+      &:active {
+        @extend %link-active;
+      }
+    }
+  }
+}

@@ -1,0 +1,402 @@
+.intro {
+  width: 100%;
+  margin-bottom: 153px;
+
+  &__wrapper {
+    background-image: url(../../images/Bitmap@2x.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    padding-top: 209px;
+
+    .box {
+      width: 445px;
+      height: 357px;
+      background-color: $very-light-grey;
+
+      &-title {
+        text-align: left;
+        font-size: 50px;
+        line-height: 50px;
+        letter-spacing: -0.446429px;
+        width: 370px;
+        padding-top: 56px;
+      }
+
+      .button {
+        display: flex;
+        margin-top: 53px;
+        &-shape {
+          width: 48px;
+          height: 48px;
+          background: #000000;
+          opacity: 0.8;
+
+          &-img {
+            margin: 16px;
+          }
+        }
+
+        &-btn {
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 14px;
+          text-align: center;
+          letter-spacing: 2px;
+          color: #ffffff;
+          width: 152px;
+          padding: 17px 0;
+          border: none;
+          background-color: $color-dark-blue;
+
+          &:hover {
+            background-color: $color-green;
+          }
+
+          &:active {
+            background-color: $light-grey;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media #{$media-lg-tablet} {
+  .intro {
+    width: 100%;
+    margin-bottom: 153px;
+
+    &__wrapper {
+      background-image: url(../../images/Bitmap@2x.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      height: 600px;
+      padding-top: 209px;
+
+      .box {
+        width: 445px;
+        height: 357px;
+        background-color: $very-light-grey;
+
+        &-title {
+          text-align: left;
+          font-size: 50px;
+          line-height: 50px;
+          letter-spacing: -0.446429px;
+          width: 370px;
+          padding-top: 56px;
+        }
+
+        .button {
+          display: flex;
+          margin-top: 53px;
+          &-shape {
+            width: 48px;
+            height: 48px;
+            background: #000000;
+            opacity: 0.8;
+
+            &-img {
+              margin: 16px;
+            }
+          }
+
+          &-btn {
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            text-align: center;
+            letter-spacing: 2px;
+            color: #ffffff;
+            width: 152px;
+            padding: 17px 0;
+            border: none;
+            background-color: $color-dark-blue;
+
+            &:hover {
+              background-color: $color-green;
+            }
+
+            &:active {
+              background-color: $light-grey;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media #{$media-tablet} {
+  .intro {
+    width: 100%;
+    margin-bottom: 153px;
+
+    &__wrapper {
+      background-image: url(../../images/Bitmap-responsive.jpg);
+      background-repeat: no-repeat;
+      background-position: left;
+      background-size: cover;
+      height: 688px;
+      padding-top: 209px;
+
+      .box {
+        width: 514px;
+        height: 278px;
+        background-color: $very-light-grey;
+
+        &-title {
+          text-align: left;
+          font-weight: 700;
+          font-size: 40px;
+          line-height: 42px;
+          letter-spacing: -0.357143px;
+          width: 458px;
+          padding-top: 56px;
+        }
+
+        .button {
+          display: flex;
+          margin-top: 53px;
+          &-shape {
+            width: 48px;
+            height: 48px;
+            background: #000000;
+            opacity: 0.8;
+
+            &-img {
+              margin: 16px;
+            }
+          }
+
+          &-btn {
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            text-align: center;
+            letter-spacing: 2px;
+            color: #ffffff;
+            width: 152px;
+            padding: 17px 0;
+            border: none;
+            background-color: $color-dark-blue;
+
+            &:hover {
+              background-color: $color-green;
+            }
+
+            &:active {
+              background-color: $light-grey;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media #{$media-mobile} {
+  .intro {
+    width: 100%;
+    margin-bottom: 153px;
+
+    &__wrapper {
+      background-image: url(../../images/Bitmap@2x.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      height: 600px;
+      padding-top: 209px;
+
+      .box {
+        width: 445px;
+        height: 357px;
+        background-color: $very-light-grey;
+
+        &-title {
+          text-align: left;
+          font-size: 50px;
+          line-height: 50px;
+          letter-spacing: -0.446429px;
+          width: 370px;
+          padding-top: 56px;
+        }
+
+        .button {
+          display: flex;
+          margin-top: 53px;
+          &-shape {
+            width: 48px;
+            height: 48px;
+            background: #000000;
+            opacity: 0.8;
+
+            &-img {
+              margin: 16px;
+            }
+          }
+
+          &-btn {
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            text-align: center;
+            letter-spacing: 2px;
+            color: #ffffff;
+            width: 152px;
+            padding: 17px 0;
+            border: none;
+            background-color: $color-dark-blue;
+
+            &:hover {
+              background-color: $color-green;
+            }
+
+            &:active {
+              background-color: $light-grey;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media #{$media-mobile-sm} {
+  .intro {
+    width: 100%;
+    margin-bottom: 153px;
+
+    &__wrapper {
+      background-image: url(../../images/Bitmap@2x.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      height: 600px;
+      padding-top: 209px;
+
+      .box {
+        width: 445px;
+        height: 357px;
+        background-color: $very-light-grey;
+
+        &-title {
+          text-align: left;
+          font-size: 50px;
+          line-height: 50px;
+          letter-spacing: -0.446429px;
+          width: 370px;
+          padding-top: 56px;
+        }
+
+        .button {
+          display: flex;
+          margin-top: 53px;
+          &-shape {
+            width: 48px;
+            height: 48px;
+            background: #000000;
+            opacity: 0.8;
+
+            &-img {
+              margin: 16px;
+            }
+          }
+
+          &-btn {
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            text-align: center;
+            letter-spacing: 2px;
+            color: #ffffff;
+            width: 152px;
+            padding: 17px 0;
+            border: none;
+            background-color: $color-dark-blue;
+
+            &:hover {
+              background-color: $color-green;
+            }
+
+            &:active {
+              background-color: $light-grey;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media #{$media-mobile-xs} {
+  .intro {
+    width: 100%;
+    margin-bottom: 153px;
+
+    &__wrapper {
+      background-image: url(../../images/Bitmap@2x.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      height: 271px;
+      padding-top: 509px;
+
+      .box {
+        width: 445px;
+        height: 357px;
+        background-color: $very-light-grey;
+
+        &-title {
+          text-align: left;
+          font-weight: 700;
+          font-size: 40px;
+          line-height: 42px;
+          letter-spacing: -0.357143px;
+          width: 311px;
+          height: 168px;
+          padding-top: 56px;
+        }
+
+        .button {
+          display: flex;
+          margin-top: 53px;
+          &-shape {
+            width: 48px;
+            height: 48px;
+            background: #000000;
+            opacity: 0.8;
+
+            &-img {
+              margin: 16px;
+            }
+          }
+
+          &-btn {
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            text-align: center;
+            letter-spacing: 2px;
+            color: #ffffff;
+            width: 152px;
+            padding: 17px 0;
+            border: none;
+            background-color: $color-dark-blue;
+
+            &:hover {
+              background-color: $color-green;
+            }
+
+            &:active {
+              background-color: $light-grey;
+            }
+          }
+        }
+      }
+    }
+  }
+}

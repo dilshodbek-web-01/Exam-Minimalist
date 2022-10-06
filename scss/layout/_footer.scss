@@ -1,0 +1,59 @@
+.footer {
+  width: 100%;
+
+  &__wrapper {
+    @include costum-menu(flex, center, space-between, 100%, 80px, $color-dark);
+
+    .start {
+      width: 36%;
+      display: flex;
+
+      .lists {
+        @include costum-menu(
+          flex,
+          center,
+          space-between,
+          100%,
+          auto,
+          $color-dark
+        );
+
+        &__item {
+          list-style-type: none;
+
+          &-link {
+            @extend %list-link;
+            color: #ffffff;
+
+            &:hover {
+                color: $color-green;
+            }
+          }
+        }
+      }
+    }
+
+    .icons {
+        @include costum-menu(flex, center, space-between, 10%, 80px, $color-dark);
+
+        .github {
+            &:hover {
+                fill: $color-green;
+            }
+        }
+
+        .twitter {
+            &:hover {
+                fill: $color-green;
+            }
+        }
+
+        .in {
+            &:hover {
+                fill: $color-green;
+            }
+        }
+
+    }
+  }
+}

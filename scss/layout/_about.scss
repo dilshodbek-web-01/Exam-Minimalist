@@ -1,0 +1,44 @@
+.about {
+  width: 100%;
+  margin-bottom: 150px;
+
+  &__wrapper {
+    display: flex;
+
+    .about__content {
+      margin-left: 110px;
+      &-line {
+        width: 350px;
+        height: 1px;
+        background-color: $color-dark;
+        mix-blend-mode: normal;
+        opacity: 0.15;
+        margin-bottom: 50px;
+      }
+
+      .line2 {
+        position: relative;
+        top: 64px;
+      }
+
+      &-text {
+        width: 350px;
+        margin-bottom: 30px;
+      }
+
+      &-link {
+        @extend %list-link;
+        border: 1px solid $color-dark;
+        padding: 17px 36px 17px 32px;
+
+        &:hover {
+          @extend %link-hover;
+        }
+
+        &:active {
+          @extend %link-active;
+        }
+      }
+    }
+  }
+}

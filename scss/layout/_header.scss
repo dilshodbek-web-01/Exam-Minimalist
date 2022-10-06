@@ -1,0 +1,33 @@
+header {
+    width: 100%;
+}
+
+@media #{$media-lg-tablet} {
+    header {
+        width: 100%;
+    }
+}
+
+@media #{$media-tablet} {
+    header {
+        width: 100%;
+    }
+}
+
+@media #{$media-mobile} {
+    header {
+        width: 100%;
+    }
+}
+
+@media #{$media-mobile-sm} {
+    header {
+        width: 100%;
+    }
+}
+
+@media #{$media-mobile-xs} {
+    header {
+        width: 100%;
+    }
+}
